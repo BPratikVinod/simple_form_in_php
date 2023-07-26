@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .main_heading {
+    color: rgba(106, 7, 163, 0.795);
+    text-align: center;
+  }
+  
+  body {
+    margin: 15px 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    padding: px;
+    background-color:rgb(217, 240, 245);
+  }
+  
+  .naamme {
+    background-color: lightcyan;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid purple;
+    border-radius: 3px;
+  }
+  
+  .wholedoc {
+    background-color: rgba(210, 173, 228, 0.76);
+    padding: 5px 10px 10px 10px;
+    border: 1px solid purple;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    text-align: center;
+    background-color: purple;
+    padding: 12px 20px;
+    color: grey;
+    font-size: 20px;
+    /* border: 1px solid rgba(128, 0, 128, 0.801); */
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgba(156, 28, 139, 0.671);
+  }
+  
+  fieldset {
+    background-color: lightcyan;
+    border: 1px solid purple;
+    border-radius: 3px;
+  }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratik Pay</title>
+    <link rel="stylesheet" href="externalcssexample.css" />
+  </head>
+  <body>
+    <div class="wholedoc"> 
+      <form action="form.php" method="post">
+        <h1 class="main_heading">Payment Form</h1>
+        <hr />
+        <p style="color: red">Required fields *</p>
+        <h2 style="color: rgba(106, 7, 163, 0.795)">Contact Information</h2>
+        <p>
+          First Name:*<input
+            class="naamme"
+            type="text"
+            name="first_name"
+            placeholder="sumit"
+            required
+          />
+        </p>
+        <p>
+          Last Name:* <input
+            class="naamme"
+            type="text"
+            name="last_name"
+            placeholder="chauhan"
+            required
+          />
+        </p>
+        <fieldset>
+          <legend>Gender</legend>
+          <p>
+            <input type="radio" name="gender" id="Male" /> 
+            Male 
+            <input type="radio" name="gender" id="Female" /> 
+            Female
+            <input type="radio" name="gender" id="Other" />
+            Other
+          </p>
+        </fieldset>
+        <p>Address:</p>
+        <p>
+          <textarea
+          type="text"
+            class="naamme"
+            name="home_address"
+            id="address"
+            cols="75"
+            placeholder="Your full address"
+            rows="10"
+          ></textarea>
+        </p>
+        <p>
+          Email: *<input
+            class="naamme"
+            type="email"
+            name="email"
+            placeholder="css.sumit1920@gmail.com"
+            id="email"
+            required
+          />
+        </p>
+        <p>
+          PinCode:
+          <input
+            class="naamme"
+            type="number"
+            name="pincode"
+            id="pincode"
+            placeholder="425001"
+          />
+        </p>
+        <hr />
+        <br />
+        <br />
+        <input type="submit" class="subbutton" value="Submit" />
+        <br />
+        <hr />
+        <p> Pratik bari Company Pvt. Ltd. India</p>
+      </form>
+    </div>
+  </body>
+</html>
